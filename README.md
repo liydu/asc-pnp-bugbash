@@ -40,9 +40,15 @@ The DTDL v2 Spec can be found at [https://aka.ms/dtdl](https://aka.ms/dtdl) can 
 * [DTDL VS Code extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-dtdl)
 * [DTDL VS 2019 extension](https://github.com/rido-min/pnp-summer-bugbash/releases/tag/1)
 
+#### IoT Plug and Play
+
+* [IoT Plug and Play preview refresh](https://docs.microsoft.com/azure/iot-pnp/overview-iot-plug-and-play-preview-updates)
+
 #### Azure IoT Middleware for Azure RTOS
 
 * [Azure IoT Embedded SDK](https://github.com/Azure/azure-sdk-for-c/tree/master/sdk/docs/iot)
 * [Azure IoT Middleware for Azure RTOS (convenience layer)](https://dev.azure.com/ExpressLogic/X-Ware/_git/netx?path=%2FApplications%2FAZURE_IOT%2Fdocs%2FREADME.md&_a=preview)
 
+#### Azure Security Center
 
+*[TBD]*
