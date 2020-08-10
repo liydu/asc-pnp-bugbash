@@ -16,7 +16,7 @@ Goals for this session:
 
 ### Getting started, environment and tooling
 
-For this bug bash, we will provide both IAR Workbench and semi's IDE projects as zipped files that can be found
+For this bug bash, we will provide both IAR Workbench and semi's IDE projects as zipped files that can be found in:
 
 [**Azure RTOS IoT Middleware bug bash samples**](https://#OneDrive)
 
