@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-# Azure Security Center and IoT Plug and Play with Azure RTOS IoT Middleware Bug Bash
+# Azure Security Center for IoT and IoT Plug and Play with Azure RTOS IoT Middleware Bug Bash
 
 ## Intro
 
@@ -26,7 +26,7 @@ For this bug bash, you can choose to test sample projects in IAR Workbench, semi
 
 Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC) you have and choose to test against:
 
-[**Azure RTOS IoT Middleware bug bash sample projects**](https://#OneDrive)
+[**Azure RTOS IoT Middleware bug bash sample projects**](https://microsoft-my.sharepoint.com/:f:/p/liydu/EnZD3IdPCHpCoBPO_RbHI6ABSTj0H6-MT7Dye-NyOyixYQ?e=Gs6fic)
 
 > NOTE: The Azure Security Center experience is currently enabled on all boards and simulated devices except for the STM32L4+ / STM32L475 board.
 
