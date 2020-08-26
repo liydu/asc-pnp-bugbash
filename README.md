@@ -11,23 +11,30 @@ Goals for this session:
 
 ### Support and feedback
 
-- Use our Teams meeting for discussion and asking for help.
+- Use [ASC and PnP integration in Azure RTOS Bug Bash](https://teams.microsoft.com/l/channel/19%3aab71cb8272f74c6eb4093725dcc85358%40thread.tacv2/ASC%2520and%2520PnP%2520integration%2520in%2520Azure%2520RTOS%2520Bug%2520Bash?groupId=471ee79d-e373-4f62-ae58-9e3944580d35&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel for discussion, feedback and asking for help.
 - If you get bug or feature request, please use this [Bug Template](https://msazure.visualstudio.com/One/_workitems/create/Bug?templateId=ff1b00b4-9812-4f71-ba79-4693a0ca440d&ownerId=56e4acd1-b6b1-4e8c-b9f3-15683ec2cdc6). You can query existing bugs in this [PnP & ASC BugBash Query](https://msazure.visualstudio.com/One/_queries/query-edit/3f280880-1bbd-488e-91a4-083f62a26b82/)
 
-### Getting started, environment and tooling
+### Sample projects
 
-For this bug bash, we will provide both IAR Workbench and semi's IDE projects as zipped files that can be found in:
+For this bug bash, you can choose to test sample projects in IAR Workbench, semi's IDE projects for actual dev boards or simulated device on PC as zipped files:
+
+* ST STM32F746G Discovery Kit
+* NXP i.MX RT1060 EVK
+* Microchip SAM E54 Xplained Pro EVK
+* ST STM32L4+ Discovery Kit IoT Node / ST STM32L475 Discovery Kit IoT Node
+* Simulated device on Windows / Linux
+
+Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC) you have and choose to test against:
 
 [**Azure RTOS IoT Middleware bug bash samples**](https://#OneDrive)
 
-Download the `.zip` file for the specific board and tool (IAR or semi's IDE) you have and choose to test against:
+> NOTE: The Azure Security Center experience is currently enabled on all boards and simulated devices except for the STM32L4+ / STM32L475 board.
 
-* [ST STM32L4+ Discovery Kit IoT Node](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) / [ST STM32L475 Discovery Kit IoT Node](https://www.st.com/en/evaluation-tools/b-l475e-iot01a.html)
-* [ST STM32F746G Discovery Kit](https://www.st.com/en/evaluation-tools/32f746gdiscovery.html)
-* [NXP i.MX RT1060 EVK](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/mimxrt1060-evk-i-mx-rt1060-evaluation-kit:MIMXRT1060-EVK)
-* [Microchip SAM E54 Xplained Pro EVK](https://www.microchip.com/developmenttools/productdetails/atsame54-xpro)
+### Get started
 
-#### Docs
+#### Prepare Azure resources
+
+
 
 Board specific guides is provided as PDF with in the docs folder of the zip file. You can use the same [Bug Template](https://#) to provide the feedback.
 
