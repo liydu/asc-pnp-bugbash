@@ -26,7 +26,7 @@ For this bug bash, you can choose to test sample projects in IAR Workbench, semi
 
 Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC) you have and choose to test against:
 
-[**Azure RTOS IoT Middleware bug bash samples**](https://#OneDrive)
+[**Azure RTOS IoT Middleware bug bash sample projects**](https://#OneDrive)
 
 > NOTE: The Azure Security Center experience is currently enabled on all boards and simulated devices except for the STM32L4+ / STM32L475 board.
 
