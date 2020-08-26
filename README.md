@@ -7,7 +7,7 @@ IoT Plug and Play Summer Refresh and Azure Security Center module have been enab
 
 Goals for this session:
 1. Build and run multiple components IoT Plug and Play sample application.
-2. Build and test Azure Security Center integration with Azure RTOS.
+2. Build and test Azure Security Center for IoT integration with Azure RTOS.
 
 ### Support and feedback
 
@@ -72,7 +72,7 @@ The DTDL v2 Spec can be found at [https://aka.ms/dtdl](https://aka.ms/dtdl) can 
 
 #### Azure Security Center for IoT
 
-*[Azure Security Center for IoT overview](https://docs.microsoft.com/en-us/azure/asc-for-iot/)*
+* [Azure Security Center for IoT overview](https://docs.microsoft.com/en-us/azure/asc-for-iot/)
 
 #### Azure IoT Middleware for Azure RTOS
 
