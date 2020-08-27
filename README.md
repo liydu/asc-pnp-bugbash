@@ -11,7 +11,7 @@ Goals for this session:
 
 ### Support and feedback
 
-- Use [ASC and PnP integration in Azure RTOS Bug Bash](https://teams.microsoft.com/l/channel/19%3aab71cb8272f74c6eb4093725dcc85358%40thread.tacv2/ASC%2520and%2520PnP%2520integration%2520in%2520Azure%2520RTOS%2520Bug%2520Bash?groupId=471ee79d-e373-4f62-ae58-9e3944580d35&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel for discussion, feedback and asking for help.
+- Use [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) for discussion, feedback and asking for help.
 - If you get bug or feature request, please use this [Bug Template](https://msazure.visualstudio.com/One/_workitems/create/Bug?templateId=ff1b00b4-9812-4f71-ba79-4693a0ca440d&ownerId=56e4acd1-b6b1-4e8c-b9f3-15683ec2cdc6). You can query existing bugs in this [PnP & ASC BugBash Query](https://msazure.visualstudio.com/One/_queries/query-edit/3f280880-1bbd-488e-91a4-083f62a26b82/)
 
 ### Sample projects
@@ -34,7 +34,7 @@ Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC)
 
 #### Prepare Azure resources
 
-**We recommend to use the IoT Hub (*azure-rtos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [ASC and PnP integration in Azure RTOS Bug Bash](https://teams.microsoft.com/l/channel/19%3aab71cb8272f74c6eb4093725dcc85358%40thread.tacv2/ASC%2520and%2520PnP%2520integration%2520in%2520Azure%2520RTOS%2520Bug%2520Bash?groupId=471ee79d-e373-4f62-ae58-9e3944580d35&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel. Or you can find the created services from the subscriptions in the Azure portal:
+**We recommend to use the IoT Hub (*azure-rtos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47). Or you can find the created services from the subscriptions in the Azure portal:
 
 ![Subscriptions](./subscriptions.png)
 
