@@ -36,7 +36,7 @@ Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC)
 
 **We recommend to use the IoT Hub (*azure-rtos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [ASC and PnP integration in Azure RTOS Bug Bash](https://teams.microsoft.com/l/channel/19%3aab71cb8272f74c6eb4093725dcc85358%40thread.tacv2/ASC%2520and%2520PnP%2520integration%2520in%2520Azure%2520RTOS%2520Bug%2520Bash?groupId=471ee79d-e373-4f62-ae58-9e3944580d35&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel. Or you can find the created services from the subscriptions in the Azure portal:
 
-![Subscriptions](./media/subscriptions.png)
+![Subscriptions](./subscriptions.png)
 
 If you prefer to create your own IoT Hub, here are the instructions to do so:
 
