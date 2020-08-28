@@ -34,9 +34,11 @@ Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC)
 
 #### Prepare Azure resources
 
-**We recommend to use the IoT Hub and Log Analytics Workspace (*azurertos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47). Or you can find the created services from the subscriptions in the Azure portal:**
+**We recommend to use the IoT Hub and Log Analytics Workspace (*azurertos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47). Or you can find the created services from the following subscriptions in the Azure portal:**
 
-![Subscriptions](/subscriptions.png)
+* IoT_Expresslogic
+* Rome ILDC - IoT - Dev
+![Subscriptions](./media/subscriptions.png)
 
 If you prefer to create your own IoT Hub, here are the instructions to do so:
 
@@ -55,7 +57,16 @@ To create the hub from the portal make sure you select the right subscription th
 
 And to enable the Log Analytics which Azure Security Center is required:
 
+1. Go to your IoT Hub and select **Settings > Data Collection** in Security tab.
+  ![](./media/data-collection.png)
 
+1. In Settings page, enable the Log Analytics and create or choose an existing Log Analytics Workspace that you want the Azure Security Center to use. Make sure **Access to raw security data** is selected.
+  ![](./media/settings.png)
+
+1. Select **Save** to enable it.
+
+1. Now in your Azure resources list, you can see the Log Analytics Workspace enabled for your IoT Hub.
+  ![](./media/log-analytics.png)
 
 #### Device specific guides
 
