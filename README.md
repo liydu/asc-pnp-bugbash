@@ -58,15 +58,15 @@ To create the hub from the portal make sure you select the right subscription th
 And to enable the Log Analytics which Azure Security Center is required:
 
 1. Go to your IoT Hub and select **Settings > Data Collection** in Security tab.
-  ![](./media/data-collection.png)
+  ![Data Collection](./media/data-collection.png)
 
 1. In Settings page, enable the Log Analytics and create or choose an existing Log Analytics Workspace that you want the Azure Security Center to use. Make sure **Access to raw security data** is selected.
-  ![](./media/settings.png)
+  ![Settings](./media/settings.png)
 
 1. Select **Save** to enable it.
 
 1. Now in your Azure resources list, you can see the Log Analytics Workspace enabled for your IoT Hub.
-  ![](./media/log-analytics.png)
+  ![Log Analytics](./media/log-analytics.png)
 
 #### Device specific guides
 
