@@ -34,7 +34,7 @@ Download the `.zip` file for the specific board and tool (IAR, semi's IDE or PC)
 
 #### Prepare Azure resources
 
-**We recommend to use the IoT Hub (*azure-rtos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47). Or you can find the created services from the subscriptions in the Azure portal:**
+**We recommend to use the IoT Hub and Log Analytics Workspace (*azurertos-asc-bugbash*) that has been created that supports the PnP summer fresh and Azure Security Center for IoT. Please get the IoT Hub connection string that is to be used to configure IoT explorer and your device in the [Bug Bash Teams channel](https://teams.microsoft.com/l/team/19%3af6f291099ee049ad99c87bdf2181a212%40thread.tacv2/conversations?groupId=769cf6c8-233a-4579-a88a-da521b98c851&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47). Or you can find the created services from the subscriptions in the Azure portal:**
 
 ![Subscriptions](/subscriptions.png)
 
@@ -52,6 +52,10 @@ az account set -s [subscription name]
 az iot hub create --resource-group BugBash --sku S1 --location eastus2euap --partition-count 4 --name [iot-hub-name]
 ```
 To create the hub from the portal make sure you select the right subscription that has Canary region enabled.
+
+And to enable the Log Analytics which Azure Security Center is required:
+
+
 
 #### Device specific guides
 
